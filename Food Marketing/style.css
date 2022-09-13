@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.food{
+    background: url(firstimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.food1{
+    color: rgb(7, 4, 4);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#head1{
+    color: red;
+}
+
+.food1 h1{ 
+   
+    font-size: 2rem;
+    text-align: center;
+}
+
+.foods{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    border: none;
+    color: red;
+    text-align: center;
+}
+.foods:hover{
+    color: black;
+    background-color: pink;
+
+}
+
+ button{
+    display: block;
+    width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+button:hover{
+    color: red;
+    background-color: darkblue;
+}
+span{
+    color: black;
+    margin: 3rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+.food2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vagetables{
+    float: left;
+    width: 32%; 
+    margin-left: 1rem;
+    margin-top: 2rem;
+     
+}
+.vagetables:hover{
+    color: red;
+    background-origin: padding-box;
+}
+
+
+@media only screen and (max-width:700px){
+    .vagetables{
+        width: 100%;
+        float: none;
+    }
+    
+}

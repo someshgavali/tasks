@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUalfsGpPVDJW1cUSyWCnFDS1qlEq4kk6icA&usqp=CAU);
+    background-size: cover;
+    /*position:relative;*/
+
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    background-color: aquamarine;
+    padding: 1rem;
+}
+#para1{
+   /* position: absolute;*/
+    background-color: blue;
+    z-index: 1200;
+    width: 80%;
+}
+#para2{
+    /*position: absolute;*/
+    margin-top: -5rem;
+    z-index: 1000;
+    width: 50%;
+}
+#button{
+    background-color: red;
+    padding: 1rem;
+    color: whitesmoke;
+    text-decoration:none;
+}
+ul{
+    background-color: aqua;
+    padding: 1rem;
+   
+}
+li{ 
+    background-color: brown;
+    margin: 00.5rem;
+    padding: 0.5rem;
+    /*display: flex;*/
+    /*list-style-type: none;*/
+    /*list-style-type: lower-roman;*/
+    list-style-image: url("'starsolid.gif'");
+}
+
+#unknown{
+    list-style-type: none;
+    padding: 5rem;
+}

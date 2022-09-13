@@ -1,0 +1,86 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Sacramento&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Sacramento&display=swap');
+
+
+#heading{
+    font-family: 'Pacifico', cursive; ;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;;
+}
+
+p{
+    font-family: 'Sacramento', cursive;
+}
+
+#float{
+   /* border: 1px solid forestgreen;*/
+    background-color: red;
+    float:left ;
+    /*text-align: right;*/
+
+    padding: 3rem;
+    margin: 3rem;
+}
+
+   /*for relative*/
+
+#relative{
+    background-color: red;
+    margin: 2rem;
+    padding: 2rem;
+    height: 8rem;
+
+}
+
+#relative p{
+    background-color: green;
+    border: 1px solid blue;
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+}
+
+/* for absolute*/
+
+#Absolute{
+    background-color: red;
+    margin: 2rem;
+    padding: 2rem;
+    height: 8rem;
+}
+
+#Absolute p{
+    background-color: white;
+    border: 1px solid black;
+
+    position: absolute;
+    top: 5rem;
+    right: 3rem;
+}
+
+/* for fixed*/
+
+#spcialnews{
+    position: fixed;
+    bottom: 1px;
+    
+}
+/*for sticky*/
+
+#sticky{
+    position: sticky;
+    top: 5rem;
+    left: 3rem;
+    
+}
+
+/*for static (defalut)*/
+
+#static{
+    position: static;
+}
+
